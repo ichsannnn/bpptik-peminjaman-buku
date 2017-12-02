@@ -1,0 +1,72 @@
+.login-circle{
+  width:130px; height:130px; border-radius:100%; margin:auto;
+}
+.material-icons.md-120{
+  font-size: 120px;
+}
+input:not([type]):focus:not([readonly]),
+input[type=text]:focus:not([readonly]),
+input[type=password]:focus:not([readonly]),
+input[type=email]:focus:not([readonly]),
+input[type=search]:focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #00bcd4;
+  box-shadow: 0 1px 0 0 #00bcd4;
+}
+input:not([type]):focus:not([readonly]) + label,
+input[type=text]:focus:not([readonly]) + label,
+input[type=password]:focus:not([readonly]) + label,
+input[type=email]:focus:not([readonly]) + label,
+input[type=search]:focus:not([readonly]) + label,
+textarea.materialize-textarea:focus:not([readonly]) + label {
+  color: #00bcd4;
+}
+.margin-bottom{
+  margin-bottom: 0!important;
+}
+.btn-full{
+  width: 100%;
+}
+.login-container {
+  margin: 30px auto;
+  max-width: 1280px;
+  width: 90%;
+}
+
+@media only screen and (min-width: 601px) {
+  .login-container {
+    width: 85%;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  .login-container {
+    width: 27%;
+  }
+}
+.brand-logo{
+  font-family: 'Product Sans';
+  font-weight: 400;
+}
+.btn, .btn-flat{
+  padding: 0 16px;
+  font-weight: 500;
+}
+.input-field .prefix.active{
+  color: #00bcd4;
+}
+.main-nav{
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.side-nav{
+  top: 64px;
+}
+@media only screen and (max-width: 992px){
+  .side-nav {
+    top: 56px!important;
+  }
+}
+.navbar-fixed{
+  z-index:1000;
+}
