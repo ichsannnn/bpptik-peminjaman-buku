@@ -5,7 +5,7 @@ Aplikasi toko buku yang dibuat menggunakan Laravel untuk penilaian sertifikasi B
 * Buka terminal linux
 * Jalankan perintah berikut untuk mendownload project
 ```
-$ git clone https://github.com/skadevz/bpptik-pelatihan-aplikasi-penjualan.git
+$ git clone https://github.com/skadevz/bpptik-peminjaman-buku.git
 ```
 * Masuk kedalam direktori project melalui terminal
 * Jalankan perintah berikut untuk persiapan awal, dan mendownload _package_ yang diperlukan
